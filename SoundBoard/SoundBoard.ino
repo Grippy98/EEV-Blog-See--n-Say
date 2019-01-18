@@ -45,6 +45,8 @@ void setup()
 
 void loop()
 {
+  //Should have all been a CASE statement but copy-paste is easy.  
+ 
   if (digitalRead(A5) == HIGH) //If the page is NOT flipped
   {
     if(!digitalRead(1))
